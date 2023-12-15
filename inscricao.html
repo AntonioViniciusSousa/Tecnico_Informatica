@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizonte Learning - Inscrição</title>
+  <link rel="shortcut icon" href="imagens/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="estilo/styleinscricao.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="imagens/icones/Logo preta - Transparente.png" alt="Logo da Empresa">
+        <div>
+            <a href="https://www.facebook.com/" target="_blank"><img src="imagens/icones/facebook.png" alt="Logo do Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="imagens/icones/instagram.png" alt="Logo do Instagram"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="imagens/icones/twitter.png" alt="Logo do Twitter"></a>
+        </div>
+        <p><a href="inscricao.html">Inscreva-se</a></p>
+    </header>
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="cursos.html">Cursos</a>
+      <a href="contatos.html">Contatos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="conteudo1">
+      <div>
+        <h1 class="conteudo1titulo">INSCRIÇÃO</h1>
+        <p class="conteudo1subtitulo">Preencha os campos com as suas informações</p>
+      </div>
+
+      <form action="" class="conteudo2">
+        <h2 class="titulo">Informações Básicas</h2>
+
+        <div class="conteudo1-parte1">
+          <div class="conteudo1-coluna0">
+            <label class="tamanho-fonte-titulo" for="Nome">Nome Completo</label>
+            <input type="text" name="Nome" id="Nome" required placeholder="Digite seu nome completo">
+          </div>
+
+          <div class="conteudo1-coluna0">
+            <label class="tamanho-fonte-titulo" for="Email">Email</label>
+            <input type="email" name="Email" id="Email" required placeholder="Digite seu email">
+          </div>
+
+          <div class="conteudo1-coluna1">
+            <label class="tamanho-fonte-titulo" for="Data">Data de Nascimento</label>
+            <input type="date" name="Data" id="Data" required>
+          </div>
+
+          <div class="conteudo1-coluna1">
+            <label class="tamanho-fonte-titulo" for="">Gênero</label>
+            <br>
+            <input type="radio" name="sexo" id="feminino" value="feminino">
+            <label class="tamanho-fonte" for="feminino">Feminino</label>
+            <br>
+            <input type="radio" name="sexo" id="masculino" value="masculino">
+            <label class="tamanho-fonte" for="masculino">Masculino</label>
+            <br>
+          </div>
+
+          <div class="conteudo1-coluna2-celular">
+            <label class="tamanho-fonte-titulo" for="Celular">Celular Principal</label>
+            <input type="text" name="Celular" id="Celular" placeholder="Digite o número do seu celular">
+          </div>
+
+          <div class="conteudo1-coluna2">
+            <label class="tamanho-fonte-titulo" for="Telefone">Telefone Residencial</label>
+            <input type="text" name="Telefone" id="Telefone" placeholder="Digite o número do seu telefone">
+          </div>
+
+
+
+        </div>
+
+        <h2 class="titulo">Informações do Curso</h2>
+
+        <div class="conteudo1-parte2">
+          <div>
+            <label class="tamanho-fonte-titulo" for="">Curso</label>
+            <br>
+            <input type="radio" name="curso" id="alimentos" value="alimentos">
+            <label class="tamanho-fonte" for="alimentos">Tecnologia em Alimentos</label>
+            <br>
+            <input type="radio" name="curso" id="mecatronica" value="mecatronica">
+            <label class="tamanho-fonte" for="mecatronica">Tecnologia em Mecatrônica</label>
+            <br>
+            <input type="radio" name="curso" id="saneamento" value="saneamento">
+            <label class="tamanho-fonte" for="saneamento">Tecnologia em Saneamento Ambiental</label>
+            <br>
+          </div>
+
+          <div>
+            <label class="tamanho-fonte-titulo" for="">Turno</label>
+            <br>
+            <input type="radio" name="turno" id="matutino" value="matutino">
+            <label class="tamanho-fonte" for="matutino">Matutino</label>
+            <br>
+            <input type="radio" name="turno" id="vespetino" value="vespetino">
+            <label class="tamanho-fonte" for="vespetino">Vespetino</label>
+            <br>
+            <input type="radio" name="turno" id="noturno" value="noturno">
+            <label class="tamanho-fonte" for="noturno">Noturno</label>
+            <br>
+          </div>
+        </div>
+
+        <h2 class="titulo">Informações Adicionais</h2>
+
+        <div class="conteudo1-parte3">
+          <div>
+            <label class="tamanho-fonte-titulo" for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf" placeholder="Digite o seu CPF">
+          </div>
+
+          <div>
+            <label class="tamanho-fonte-titulo" for="rg">RG</label>
+            <input type="text" name="rg" id="rg" placeholder="Digite o seu RG">
+          </div>
+
+          <div>
+            <label class="tamanho-fonte-titulo" for="nacional">Nacionalidade</label>
+            <input type="text" name="nacional" id="nacional" placeholder="Digite a sua nacionalidade">
+          </div>
+
+          <div class="conteudo1-parte3-coluna3">
+            <label class="tamanho-fonte-titulo" for="cnatal">Cidade Natal</label>
+            <input type="text" name="cnatal" id="cnatal" placeholder="Digite o nome da sua cidade natal">
+          </div>
+
+          <div>
+            <label class="tamanho-fonte-titulo" for="cep">CEP</label>
+            <input type="text" name="cep" id="cep" placeholder="Digite o seu CEP">
+          </div>
+
+          <div>
+            <label class="tamanho-fonte-titulo" for="endatu">Endereço</label>
+            <input type="text" name="endatu" id="endatu" placeholder="Digite o seu endereço">
+          </div>
+
+          <div>
+            <label class="tamanho-fonte-titulo" for="numero">Nº</label>
+            <input type="text" name="numero" id="numero" placeholder="Digite o número de sua residência">
+          </div>
+
+          <div>
+            <label class="tamanho-fonte-titulo" for="compl">Complemento</label>
+            <input type="text" name="compl" id="compl" placeholder="Digite o seu complemento">
+          </div>
+
+          <div>
+            <label class="tamanho-fonte-titulo" for="bairro">Bairro</label>
+            <input type="text" name="bairro" id="bairro" placeholder="Digite o nome do seu bairro">
+          </div>
+
+          <div>
+            <label class="tamanho-fonte-titulo" for="cidade">Cidade</label>
+            <input type="text" name="cidade" id="cidade" placeholder="Digite o nome de sua cidade">
+          </div>
+        </div>
+
+        <input id="botaoformulario" type="submit" value="Enviar">
+      </form>
+
+    </section>
+
+    <section class="conteudo2">
+      <h3>Tabela dos Cadastrados</h3>
+      <table>
+        <colgroup span="4"></colgroup>
+        <tr>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Telefone</th>
+          <th>Ações</th>
+        </tr>
+        <tr>
+          <td>Antônio Sousa </td>
+          <td>antoniosousa@gmail.com</td>
+          <td>(88) 9 5123-7541</td>
+          <td><abbr title="Editar"><img src="imagens/icones/editar.png" alt="Representação do botão de editar da tabela"></abbr> <abbr title="Apagar"><img src="imagens/icones/apagar.png" alt="Representação do botão de apagar da tabela"></abbr></td>
+        </tr>
+        <tr>
+          <td>Maria Silva</td>
+          <td>mariasilva@gmail.com</td>
+          <td>(84) 9 2457-8624</td>
+          <td><abbr title="Editar"><img src="imagens/icones/editar.png" alt="Representação do botão de editar da tabela"></abbr> <abbr title="Apagar"><img src="imagens/icones/apagar.png" alt="Representação do botão de apagar da tabela"></abbr></td>
+        </tr>
+        <tr>
+          <td>Raimundo Oliveira</td>
+          <td>raimundooliveira@gmail.com</td>
+          <td>(12) 9 9452-1451</td>
+          <td><abbr title="Editar"><img src="imagens/icones/editar.png" alt="Representação do botão de editar da tabela"></abbr> <abbr title="Apagar"><img src="imagens/icones/apagar.png" alt="Representação do botão de apagar da tabela"></abbr></td>
+        </tr>
+        <tr>
+          <td>José Xavier</td>
+          <td>josexavier@gmail.com</td>
+          <td>(11) 9 8745-5623</td>
+          <td><abbr title="Editar"><img src="imagens/icones/editar.png" alt="Representação do botão de editar da tabela"></abbr> <abbr title="Apagar"><img src="imagens/icones/apagar.png" alt="Representação do botão de apagar da tabela"></abbr></td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer1">
+      <a href="index.html"><img class="logoprincipal" src="imagens/icones/Logo preta - Transparente.png" alt="Logo da Empresa"></a>
+      <p>Ampliando Horizontes com Saber!</p>
+      <div>
+        <a href="https://www.facebook.com/" target="_blank"><img src="imagens/icones/facebook.png" alt="Logo do Facebook"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="imagens/icones/instagram.png" alt="Logo do Instagram"></a>
+        <a href="https://twitter.com/" target="_blank"><img src="imagens/icones/twitter.png" alt="Logo do Twitter"></a>
+      </div>
+    </div>
+
+    <div class="footer2">
+      <p>Menu</p>
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="cursos.html">Cursos</a>
+      <a href="contatos.html">Contatos</a>
+    </div>
+
+    <div class="footer3">
+      <p class="footer3titulo">Contatos</p>
+
+      <a href="https://wa.me/5588981065169" target="_blank"><img src="imagens/icones/telefone.png" alt="Logo do Telefone"></a>
+      <p>(88) 9 8106-5169</p>
+
+      <a href="mailto:antonio22vinicius@gmail.com" target="_blank"><img src="imagens/icones/email.png" alt="Logo do Email"></a>
+      <p>horizonte_learning@gmail.com</p>
+
+      <a href="https://maps.app.goo.gl/vTSKiphhYJm93M1J6" target="_blank"><img src="imagens/icones/localizacao.png" alt="Logo da Localização"></a>
+      <p>Rua Estevão Remígio de Freitas, 1145 - Monsenhor Otávio, Limoeiro do Norte - CE, 62930-000</p>
+
+    </div>
+
+    <div class="footer4">
+      <p class="footer4titulo">Conecta-se a nós</p>
+      <form action="">
+        <p><label for="email2">Email</label> <input type="email2" name="email2" id="email2"></p>
+        <input class="botaofooter4" type="submit" value="Inscreva-se">
+      </form>
+    </div>
+
+  </footer>
+
+  <div class="desenvolvedor">
+    <p>Desenvolvido por <a href="desenvolvedor.html"><strong>Antônio Vinícius da Silva Sousa</strong></a></p>
+  </div>
+
+</body>
+
+</html>
